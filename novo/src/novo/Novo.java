@@ -34,9 +34,9 @@ public class Novo {
 
     public static void main(String[] args) {
         int opcao;
-        System.out.println("Tamanho da pilha:");
-        int tamanho = leia.nextInt();
-        Pilha<Recorde> minhaPilha = new Pilha(tamanho);
+        //System.out.println("Tamanho da pilha:");
+        //int tamanho = leia.nextInt();
+        PilhaEncadeada<Recorde> minhaPilha = new PilhaEncadeada();
         
         do{
             opcao = menu();
